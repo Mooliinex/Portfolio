@@ -5,7 +5,7 @@
   @apply inline-block px-16 py-4 font-semibold text-white rounded;
 }
 .btn-primary {
-  @apply bg-indigo-600 shadow-md;
+  @apply bg-indigo-700 shadow-md;
 }
 .btn-primary:hover {
   @apply bg-indigo-500;
