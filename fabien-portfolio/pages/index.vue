@@ -1,5 +1,9 @@
 <template>
-  <defaul></defaul>
+  <default>
+  </default>
+
+
+
 </template>
 
 <script>

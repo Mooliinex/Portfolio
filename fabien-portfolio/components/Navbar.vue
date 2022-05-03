@@ -4,7 +4,7 @@
       class="px-1 py-4 bg-gray-900 shadow-2xl my-container sm:flex sm:justify-between sm:items-center sm:mt-8 sm:rounded-full"
     >
       <div class="flex items-center justify-between px-8">
-        <img src="../assets/img/f.png" alt="Logo Fabien" width="150" height="200">
+        <img src="../assets/img/logo-name.png" alt="Logo Fabien" width="250" height="250">
           <title>logo-white</title>
         <div class="sm:hidden">
           <button
@@ -19,11 +19,11 @@
         :class="isOpen ? 'block' : 'hidden'"
         class="px-8 py-4 sm:py-0 sm:block"
       >
-        <div class="font-semibold text-white sm:flex">
+        <div class="font-semibold text-xl text-white sm:flex">
           <a
             href="#"
             v-scroll-to="'#about'"
-            class="block pt-3 sm:pt-0 sm:px-4 hover:text-indigo-300"
+            class="block pt-3 sm:pt-0 sm:px-4 hover:text-indigo-300 "
           >À propos</a
           >
           <span class="hidden cursor-default sm:block sm:px-1">/</span>
