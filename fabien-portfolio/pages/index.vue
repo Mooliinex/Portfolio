@@ -1,5 +1,5 @@
 <template>
-  <Tutorial/>
+  <defaul></defaul>
 </template>
 
 <script>
