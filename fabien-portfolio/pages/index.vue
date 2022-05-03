@@ -1,5 +1,9 @@
 <template>
   <default>
+    <div>
+      <About></About>
+
+    </div>
   </default>
 
 

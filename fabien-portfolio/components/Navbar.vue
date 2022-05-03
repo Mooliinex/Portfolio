@@ -6,6 +6,9 @@
       <div class="flex items-center justify-between px-8">
         <img src="../assets/img/logo-name.png" alt="Logo Fabien" width="250" height="250">
           <title>logo-white</title>
+
+
+
         <div class="sm:hidden">
           <button
             @click="isOpen = !isOpen"
