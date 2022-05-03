@@ -4,9 +4,6 @@
 .btn {
   @apply inline-block px-16 py-4 font-semibold text-white rounded;
 }
-.btn:focus {
-  @apply shadow-outline outline-none;
-}
 .btn-primary {
   @apply bg-indigo-600 shadow-md;
 }
