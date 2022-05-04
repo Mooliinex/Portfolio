@@ -1,35 +1,35 @@
 <template>
-  <footer class="bg-gray-900 border-t border-indigo 500">
-    <div class="flex flex-col py-32 mx-auto my-container">
+  <footer class="bg-gray-900">
+    <div class="flex flex-col py-24 mx-auto my-container ">
       <div class="mt-32 lg:mt-0">
-        <img class="w-logo-name" src="../assets/img/logo-name.png" alt=""/>
+        <img class="w-logo-name" src="../../assets/img/logo-name.png" alt="Logo Fabien" width="200vm"/>
       </div>
-      <div class="mt-5 font-semibold text-white sm:pt-0 sm:flex">
+      <div class="mt-3 mb-5 font-semibold text-white sm:pt-0 sm:flex">
         <a href="#" v-scroll-to="'#about'" class="block pr-4 hover:text-indigo-300">À propos</a>
         <span class="hidden cursor-default sm:block sm:px-1">/</span>
         <a
           href="#"
           v-scroll-to="'#experience'"
-          class="block pt-3 sm:pt-0 sm:px-4 hover:text-indigo-300"
+          class="block pt-3 sm:pt-0 sm:px-4 hover:text-indigo-300 text-xl"
         >Expérience</a>
         <span class="hidden cursor-default sm:block sm:px-1">/</span>
         <a
           href="#"
           v-scroll-to="'#projects'"
-          class="block pt-3 pr-4 sm:pt-0 sm:px-4 hover:text-indigo-300"
+          class="block pt-3 pr-4 sm:pt-0 sm:px-4 hover:text-indigo-300 text-xl"
         >Projets</a>
         <span class="hidden cursor-default sm:block sm:px-1">/</span>
         <a
           href="#"
           v-scroll-to="'#contact'"
-          class="block pt-3 sm:pt-0 sm:px-4 hover:text-indigo-300"
+          class="block pt-3 sm:pt-0 sm:px-4 hover:text-indigo-300 text-xl"
         >Contact</a>
       </div>
 
       <div class="flex items-center mt-3">
         <a href="https://www.github.com/Mooliinex" target="_blank">
           <svg
-            class="w-5 h-5 mr-3 text-white fill-current hover:text-indigo-300"
+            class="w-8 h-8 mr-3 text-white fill-current hover:text-indigo-300 text-xl"
             viewBox="0 0 24 24"
           >
             <defs />
@@ -39,7 +39,7 @@
           </svg>
         </a>
         <a class="cursor-pointer" href="https://www.linkedin.com/in/le-fichoux-fabien/" target="_blank">
-          <svg class="w-5 h-5 text-white fill-current hover:text-indigo-300" viewBox="0 0 24 24">
+          <svg class="w-8 h-8 text-white fill-current hover:text-indigo-300" viewBox="0 0 24 24">
             <defs />
             <path
               d="M19 0H5a5 5 0 00-5 5v14a5 5 0 005 5h14a5 5 0 005-5V5a5 5 0 00-5-5zM8 19H5V8h3v11zM6.5 6.732c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zM20 19h-3v-5.604c0-3.368-4-3.113-4 0V19h-3V8h3v1.765c1.396-2.586 7-2.777 7 2.476V19z"
