@@ -2,7 +2,7 @@
   <default>
     <div>
       <About></About>
-
+      <Experience></Experience>
     </div>
   </default>
 
