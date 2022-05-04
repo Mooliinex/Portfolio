@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center">
     <header
-      class="px-1 py-4 bg-gray-900 shadow-2xl my-container md:flex sm:justify-between sm:items-center sm:mt-8 sm:rounded-full"
+      class="px-1 py-4 bg-gray-900 shadow-2xl my-container md:flex sm:justify-between sm:items-center sm:mt-8 sm:rounded-3xl"
     >
       <div class="flex items-center justify-between pl-16">
         <img src="../assets/img/logo-name.png" alt="Logo Fabien" width="120vm">
