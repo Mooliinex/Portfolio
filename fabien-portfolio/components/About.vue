@@ -20,7 +20,7 @@
       </div>
       <div class="flex items-center hidden lg:block">
         <img
-          class="h-98 bg-gray-900 rounded-full shadow-xl"
+          class="h-98 bg-gray-900 rounded-3xl shadow-xl"
           src="../assets/img/unnamed.jpg"
           alt="Fabien Le Fichoux"
         />
