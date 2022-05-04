@@ -59,11 +59,11 @@
           >
             <div class="relative z-50 flex flex-col items-center h-full px-4 py-12 text-center">
                 <span
-                  class="text-3xl font-semibold tracking-wide text-white uppercase"
+                  class="text-3xl font-semibold tracking-wide text-white uppercase lg:text-xl xl:text-3xl"
                 >{{ skill.title }}</span>
-              <p class="max-w-lg my-auto font-semibold text-xl text-indigo-300">{{ skill.description }}</p>
+              <p class="max-w-lg my-auto font-semibold text-lg text-indigo-300 ">{{ skill.description }}</p>
               <span
-                class="block mt-auto font-bold text-center text-2xl text-white uppercase"
+                class="block mt-auto font-bold text-center text-xl text-white uppercase lg:text-sm xl:text-xl"
               >{{ skill.tech }}</span>
             </div>
           </div>
