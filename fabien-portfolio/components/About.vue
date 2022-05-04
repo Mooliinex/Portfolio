@@ -38,8 +38,8 @@
         Polyvalent et flexible, je suis toujours désireux d'en savoir plus sur les technologies émergentes.
         J’espère que cette introduction vous donnera envie de me contacter et d’en savoir plus sur ce que je peux apporter à votre entreprise et à vos équipes.</p>
       <div class="pt-8">
-        <button class="mr-4 btn btn-primary" v-scroll-to="'#projects'">Mes projets</button>
-        <button class="mt-4 btn btn-secondary" v-scroll-to="'#contact'">Contact</button>
+        <button class="mr-4 btn btn-primary rounded-3xl" v-scroll-to="'#projects'">Mes projets</button>
+        <button class="mt-4 btn btn-secondary rounded-3xl" v-scroll-to="'#contact'">Contact</button>
       </div>
     </div>
   </section>
@@ -55,7 +55,7 @@
           class="w-full my-3 lg:px-2 lg:-mt-40 xl:py-10 lg:w-1/3 xl:px-3"
         >
           <div
-            class="relative overflow-hidden bg-gray-800 border-4 border-indigo-800 rounded shadow-xl h-skill-card"
+            class="relative overflow-hidden bg-gray-800 border-4 border-indigo-800 rounded-3xl shadow-xl h-skill-card"
           >
             <div class="relative z-50 flex flex-col items-center h-full px-4 py-12 text-center">
                 <span
@@ -87,13 +87,19 @@ export default {
           title: "Front-End Development",
           description:
           "lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet ",
-          tech: " JavaScript / Vue / Nuxt / React / HTML / CSS",
+          tech: " JavaScript / Angular / Vue / Nuxt / React / HTML / CSS",
         },
         {
           title: "Back-End Development",
           description:
             "lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet ",
           tech: "Node / Express  / MongoDB / MySQL",
+        },
+        {
+          title: "Outils",
+          description:
+            "lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet ",
+          tech: "Jetbrain / GitHub  / Postman / Trello",
         },
       ],
     }
