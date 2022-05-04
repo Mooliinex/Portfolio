@@ -4,7 +4,7 @@
       class="px-1 py-4 bg-gray-900 shadow-2xl my-container md:flex sm:justify-between sm:items-center sm:mt-8 sm:rounded-3xl"
     >
       <div class="flex items-center justify-between pl-16">
-        <img src="../assets/img/logo-name.png" alt="Logo Fabien" width="120vm">
+        <img src="../../assets/img/logo-name.png" alt="Logo Fabien" width="120vm">
 
         <title>logo-white</title>
 
@@ -38,28 +38,28 @@
           <a
             href="#"
             v-scroll-to="'#about'"
-            class="block pt-3 sm:pt-0 sm:px-4 hover:text-indigo-300"
+            class="block pt-3 sm:pt-0 sm:px-4 hover:text-indigo-300 text-xl"
           >About</a
           >
           <span class="hidden cursor-default sm:block sm:px-1">/</span>
           <a
             href="#"
             v-scroll-to="'#experience'"
-            class="block pt-3 sm:pt-0 sm:px-4 hover:text-indigo-300"
+            class="block pt-3 sm:pt-0 sm:px-4 hover:text-indigo-300 text-xl"
           >Experience</a
           >
           <span class="hidden cursor-default sm:block sm:px-1">/</span>
           <a
             href="#"
             v-scroll-to="'#projects'"
-            class="block pt-3 sm:pt-0 sm:py-0 sm:px-4 hover:text-indigo-300"
+            class="block pt-3 sm:pt-0 sm:py-0 sm:px-4 hover:text-indigo-300 text-xl"
           >Projects</a
           >
           <span class="hidden cursor-default sm:block sm:px-1">/</span>
           <a
             href="#"
             v-scroll-to="'#contact'"
-            class="block pt-3 sm:pt-0 sm:px-4 hover:text-indigo-300"
+            class="block pt-3 sm:pt-0 sm:px-4 hover:text-indigo-300 text-xl"
           >Contact</a
           >
         </div>

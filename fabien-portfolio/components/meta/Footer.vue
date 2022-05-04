@@ -2,7 +2,7 @@
   <footer class="bg-gray-900">
     <div class="flex flex-col py-24 mx-auto my-container ">
       <div class="mt-32 lg:mt-0">
-        <img class="w-logo-name" src="../assets/img/logo-name.png" alt="Logo Fabien" width="200vm"/>
+        <img class="w-logo-name" src="../../assets/img/logo-name.png" alt="Logo Fabien" width="200vm"/>
       </div>
       <div class="mt-3 mb-5 font-semibold text-white sm:pt-0 sm:flex">
         <a href="#" v-scroll-to="'#about'" class="block pr-4 hover:text-indigo-300">À propos</a>
@@ -10,26 +10,26 @@
         <a
           href="#"
           v-scroll-to="'#experience'"
-          class="block pt-3 sm:pt-0 sm:px-4 hover:text-indigo-300"
+          class="block pt-3 sm:pt-0 sm:px-4 hover:text-indigo-300 text-xl"
         >Expérience</a>
         <span class="hidden cursor-default sm:block sm:px-1">/</span>
         <a
           href="#"
           v-scroll-to="'#projects'"
-          class="block pt-3 pr-4 sm:pt-0 sm:px-4 hover:text-indigo-300"
+          class="block pt-3 pr-4 sm:pt-0 sm:px-4 hover:text-indigo-300 text-xl"
         >Projets</a>
         <span class="hidden cursor-default sm:block sm:px-1">/</span>
         <a
           href="#"
           v-scroll-to="'#contact'"
-          class="block pt-3 sm:pt-0 sm:px-4 hover:text-indigo-300"
+          class="block pt-3 sm:pt-0 sm:px-4 hover:text-indigo-300 text-xl"
         >Contact</a>
       </div>
 
       <div class="flex items-center mt-3">
         <a href="https://www.github.com/Mooliinex" target="_blank">
           <svg
-            class="w-8 h-8 mr-3 text-white fill-current hover:text-indigo-300"
+            class="w-8 h-8 mr-3 text-white fill-current hover:text-indigo-300 text-xl"
             viewBox="0 0 24 24"
           >
             <defs />
