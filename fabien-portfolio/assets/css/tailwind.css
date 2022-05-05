@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 
+.imgproject {
+  height: 50vh;}
+
 .btn {
   @apply inline-block px-16 py-4 font-semibold text-white rounded;
 }

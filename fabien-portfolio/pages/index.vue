@@ -3,6 +3,7 @@
     <div>
       <About></About>
       <Experience></Experience>
+      <Projects></Projects>
     </div>
   </default>
 
