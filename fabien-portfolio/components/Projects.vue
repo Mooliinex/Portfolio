@@ -15,7 +15,7 @@
                 target="_blank"
               >
             <img
-              class="rounded-t object-fit"
+              class=" rounded-xl object-fit "
               :src="require('~/assets/img/project/' + project.img + '-pro.jpg')"
             />
                 </a>
@@ -38,7 +38,7 @@
 
 <!--   RESPONSIVE     -->
 
-        <div class="flex justify-center xl:hidden">
+        <div class="flex justify-center xl:hidden ">
           <div class="overflow-hidden bg-gray-800 rounded-xl">
             <a
               v-if="project.link"
@@ -48,7 +48,7 @@
             >
             <img
               class="object-cover w-full"
-              :src="require('~/assets/img/project/' + project.img + '-pro.jpg')"
+              :src="require('~/assets/img/project/' + project.img + '.jpg')"
             />
             </a>
             <div class="flex flex-col justify-center px-10 pt-5 pb-10">
@@ -93,8 +93,32 @@ export default {
       link: "https://github.com/Mooliinex/Projet-My_Meetic",
       img: "meetyc",
       description:
-    " lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet       "
+    " lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorelorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet       "
   },
+        {
+          title: "Cinema",
+          technologies: "Angular / Bootstrap / MongoDB / Node / Express",
+          link: "https://github.com/Mooliinex/Projet-My_Meetic",
+          img: "cinema",
+          description:
+            " lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorelorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet       "
+        },
+        {
+          title: "Puissance 4",
+          technologies: "Angular / Bootstrap / MongoDB / Node / Express",
+          link: "https://github.com/Mooliinex/Projet-My_Meetic",
+          img: "game",
+          description:
+            " lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorelorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet       "
+        },
+        {
+          title: "Morpion",
+          technologies: "Angular / Bootstrap / MongoDB / Node / Express",
+          link: "https://github.com/Mooliinex/Projet-My_Meetic",
+          img: "win",
+          description:
+            " lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorelorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet       "
+        },
 
       ]
     }
