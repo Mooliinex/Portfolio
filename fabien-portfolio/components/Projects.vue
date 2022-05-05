@@ -86,8 +86,16 @@ export default {
         link: "http://candy.wac.ovh/",
         img: "candy",
         description:
-          "Création d'un site e-commerce dans le but de comprendre et d'utiliser le mécanisme MVCS (Model/View/Controller/Service). Projet de 3 semaines réalisé après 5 mois de formation . Fini à 70% manque le dahsboard admin et la validation / historique commande. "
+          "Création d'un site e-commerce dans le but de comprendre et d'utiliser le mécanisme MVCS (Model/View/Controller/Service). Projet de 3 semaines réalisé après 5 mois de formation .            Fini à 70% manque le dahsboard admin et la validation / historique commande. "
       },
+        {
+          title: "Hackathon RECYCLE RENNES",
+          technologies: "HTML5 / CSS / JS ",
+          link: "http://www.wiki-rennes.fr/Re_Cycle/Terrabyte",
+          img: "home",
+          description:
+            "TERRABYTE : Un jeu collaboratif pour comprendre les impacts du numérique ! Le jeu de société sur la Grande Histoire du Numérique qui questionne nos usages. Projet réalisé en 3 jours."
+        },
         {
           title: "Meetyc",
           technologies: "HTML5 / CSS / JQuery / PHP / POO / Express",
