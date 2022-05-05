@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-gray-900">
-    <div class="flex flex-col py-24 mx-auto my-container ">
+    <div class="flex flex-col py-4 mx-auto my-container ">
       <div class="mt-32 lg:mt-0">
         <img class="w-logo-name" src="../../assets/img/logo-name.png" alt="Logo Fabien" width="200vm"/>
       </div>
