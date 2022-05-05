@@ -21,7 +21,7 @@
                 </a>
           </div>
           <div class="absolute z-40 w-3/5 pl-16" style="right: 0">
-            <div class="p-8 bg-gray-800 border-2 border-indigo-900 rounded-xl shadow-xl">
+            <div class=" p-8 bg-gray-800 border-2 border-indigo-900 rounded-xl shadow-xl">
                 <span class="text-2xl font-semibold text-white uppercase">
                   {{
                     project.title
@@ -85,40 +85,57 @@ export default {
         link: "http://candy.wac.ovh/",
         img: "candy",
         description:
-          " lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorem ipsum dolor sit ametlorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorem ipsum dolor sit ametlorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet       "
+          "Création d'un site e-commerce dans le but de comprendre et d'utiliser le mécanisme MVCS (Model/View/Controller/Service). Projet de 3 semaines réalisé après 5 mois de formation . Fini à 70% manque le dahsboard admin et la validation / historique commande. "
       },
         {
-        title: "Meetyc",
-      technologies: "Angular / Bootstrap / MongoDB / Node / Express",
-      link: "https://github.com/Mooliinex/Projet-My_Meetic",
-      img: "meetyc",
-      description:
-    " lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorelorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet       "
-  },
-        {
-          title: "Cinema",
-          technologies: "Angular / Bootstrap / MongoDB / Node / Express",
+          title: "Meetyc",
+          technologies: "HTML5 / CSS / JQuery / PHP / POO / Express",
           link: "https://github.com/Mooliinex/Projet-My_Meetic",
-          img: "cinema",
+          img: "meetyc",
           description:
-            " lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorelorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet       "
-        },
-        {
-          title: "Puissance 4",
-          technologies: "Angular / Bootstrap / MongoDB / Node / Express",
-          link: "https://github.com/Mooliinex/Projet-My_Meetic",
-          img: "game",
-          description:
-            " lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorelorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet       "
+            "Création d'un site de rencontres à la manière d’un Meetic. Projet de 2 semaine réalisé après 4 mois de formation"
         },
         {
           title: "Morpion",
-          technologies: "Angular / Bootstrap / MongoDB / Node / Express",
-          link: "https://github.com/Mooliinex/Projet-My_Meetic",
+          technologies: "JS / LibrairieJQuery / Algorithmie / Trois dimensions ",
+          link: "https://github.com/Mooliinex/Colle-Morpion",
           img: "win",
           description:
-            " lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorelorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit ametlorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet       "
+            "Examen de 4h pour développer un jeu de morpion. Réalisé après 3 de formation."
         },
+        {
+          title: "Puissance 4",
+          technologies: "JS / LibrairieJQuery / Algorithmie / Jeu ",
+          link: "https://github.com/Mooliinex/Projet-Puissance4",
+          img: "game",
+          description:
+            "Réalisation un jeu en utilisant la librairie jQuery reprenant les règles du célèbre jeu de Puissance 4.  Projet de 2 semaine réalisé après 3 mois de formation "
+        },
+        {
+          title: "CSS generator",
+          technologies: "PHP / Gestion des fichiers en PHP / Spritesheets CSS / UNIX  ",
+          link: "https://github.com/Mooliinex/Projet-CSS-Generator",
+          img: "sprite",
+          description:
+            "Au départ, nous avons un dossier contenant plusieurs images au format PNG. L’idée principale du projet est de développer un programme, qui concatène toutes ces images en un seul sprite. L’idée secondaire est de générer le fichier CSS représentant cette concaténation. Projet de 3 semaines réalisé après 2 mois de formation "
+        },
+        {
+          title: "Cinema",
+          technologies: "HTML5 / CSS / JS / PHP / SQL ",
+          link: "https://github.com/Mooliinex/Projet-My_cinema",
+          img: "cinema",
+          description:
+            " À partir de la base de données MySQL fournie création d'un site qui permet d’interagir avec cette dernière. Projet de 1 semaine réalisé après 1 mois de formation ."
+        },
+        {
+          title: "Maquette HTML",
+          technologies: "HTML5 / CSS / JS / PHP / SQL ",
+          link: "https://github.com/Mooliinex/Maquette-HTML",
+          img: "img",
+          description:
+            " À partir de la base de données MySQL fournie création d'un site qui permet d’interagir avec cette dernière. Projet de 1 semaine réalisé après 1 mois de formation ."
+        },
+
 
       ]
     }
