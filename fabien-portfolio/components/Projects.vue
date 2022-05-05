@@ -36,6 +36,7 @@
           </div>
         </div>
 
+
 <!--   RESPONSIVE     -->
 
         <div class="flex justify-center xl:hidden ">
@@ -117,7 +118,7 @@ export default {
           link: "https://github.com/Mooliinex/Projet-CSS-Generator",
           img: "sprite",
           description:
-            "Au départ, nous avons un dossier contenant plusieurs images au format PNG. L’idée principale du projet est de développer un programme, qui concatène toutes ces images en un seul sprite. L’idée secondaire est de générer le fichier CSS représentant cette concaténation. Projet de 3 semaines réalisé après 2 mois de formation "
+            "Développer un programme, qui concatène toutes ces images en un seul sprite. Projet de 3 semaines réalisé après 2 mois de formation "
         },
         {
           title: "Cinema",
