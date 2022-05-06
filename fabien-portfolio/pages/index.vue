@@ -4,6 +4,7 @@
       <About></About>
       <Experience></Experience>
       <Projects></Projects>
+      <Contact></Contact>
     </div>
   </default>
 
