@@ -19,7 +19,7 @@
           <p class="max-w-xl pt-8 font-semibold text-indigo-300 sm:text-2xl">
             J’espère que cette introduction vous donnera envie de me contacter et d’en savoir plus sur ce que je peux apporter à votre entreprise et à vos équipes.</p>
           <div class="pt-12">
-            <button class="mr-4 btn btn-primary" ><a href="../static/CV-LE-FICHOUX-FABIEN.pdf" target="_blank" download>Download the pdf</a></button>
+            <button class="mr-4 btn btn-primary" ><a href="/CV-LE-FICHOUX-FABIEN.pdf" download>CV</a></button>
 
             <button class="btn btn-secondary" v-scroll-to="'#contact'">Contact</button>
 
