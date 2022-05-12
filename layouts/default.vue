@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import Navbar from "components/meta/Navbar";
-import Footer from "components/meta/Footer";
+import Navbar from "../components/meta/Navbar";
+import Footer from "../components/meta/Footer";
 export default {
   head() {
     return {
