@@ -5,6 +5,13 @@
 ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 */
 module.exports = {
+  content: [
+    // Example content paths...
+    './public/**/*.html',
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './src/**/*.{js,jsx,ts,tsx,vue}',
+  ],
   theme: {
     minHeight: {
       '0': '0',
@@ -16,7 +23,7 @@ module.exports = {
     extend: {
       spacing: {
         'half': '5%',
-        'skill-card': '375px',
+        'skill-card': '475px',
         'name-logo': '19rem'
       }
     }

@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+
+.imgproject {
+  height: 50vh;}
+
+.btn {
+  @apply inline-block px-16 py-4 font-semibold text-white rounded;
+}
+.btn-primary {
+  @apply bg-indigo-700 shadow-md;
+}
+.btn-primary:hover {
+  @apply bg-indigo-500;
+}
+.btn-secondary {
+  @apply bg-gray-600;
+}
+.btn-secondary:hover {
+  @apply bg-gray-500;
+}
+.my-container {
+  @apply w-full px-8;
+}
+@screen sm {
+  .my-container {
+    @apply w-11/12;
+  }
+}
+@screen md {
+  .my-container {
+    @apply w-11/12;
+  }
+}
+@screen lg {
+  .my-container {
+    @apply w-2/3;
+  }
+}
+@screen xl {
+  .my-container {
+    @apply max-w-6xl;
+  }
+}
+
+@tailwind utilities;
