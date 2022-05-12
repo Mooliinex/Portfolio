@@ -26,9 +26,10 @@ jobs:
 #        with:
 #          node-version: ${{ matrix.node-version }}
 
-#      - name: npm install and npm run build
-#        run: |
-#          npm ci
+      - name: npm install and npm run build
+        run: |
+          npm ci
+          nuxt generate
 #          npm run build
       - name: executing remote ssh commands using ssh key
         uses: appleboy/scp-action@master
@@ -37,5 +38,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          source: "."
-          target: "/home/ubuntu"
+          source: "dist/"
+          target: "/var/www/html"
