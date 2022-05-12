@@ -38,4 +38,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           source: "dist/"
-          target: "/var/www/portfolio"
+          target: "/home/ubuntu"
