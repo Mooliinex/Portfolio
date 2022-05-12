@@ -1,16 +1,17 @@
 {
-  "name": "fabien-portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "node_modules/.bin/nuxt",
+    "build": "node_modules/.bin/nuxt build",
+    "start": "node_modules/.bin/nuxt start",
+    "generate": "node_modules/.bin/nuxt generate"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
     "axios": "^0.27.2",
+    "components": "^0.1.0",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
     "vue": "^2.6.14",
